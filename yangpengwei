@@ -1,0 +1,6 @@
+#include "LPC11xx.h"                    // Device header
+int main()
+{
+	LPC_GPIO0->DIR = 0xff;
+	LPC_GPIO0->DATA = 0x55;
+}
